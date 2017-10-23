@@ -24,7 +24,7 @@ var hangman = {
       type: "confirm",
       message: "Ready to play?"
     }]).then(function(answer) {
-      if(answer.play){
+      if(answer.start){
         that.newGame();
       } else{
         console.log("You're no fun..");
